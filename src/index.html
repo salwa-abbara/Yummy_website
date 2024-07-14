@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link href="./../dist/output.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class=" relative text-white font-sans"> 
+  
+    <div class="loading fixed top-0 start-0 bottom-0 right-0 bg-black flex  justify-center items-center z-20">
+        <span class="loader w-[48px] h-[48px] relative inline-block rounded-full border-[5px] border-white border-dotted animate-[rotation_2s_linear_infinite]"></span>
+    </div>
+    <div class="content relative bg-black h-lvh">
+       
+           <nav class=" bg-black flex fixed   top-0 start-[-256.467px] bottom-0 z-50">
+               <div class="nav-tab  flex  flex-col justify-between h-lvh p-6">
+                   <div class="links ">
+                       <ul >
+                           <li id="search" class=" py-1  text-[16px] relative cursor-pointer  text-[#F9F9F9] " > Search</li>
+                           <li id="categories" class=" py-1  text-[16px] relative cursor-pointer text-[#F9F9F9]"> Categories</li>
+                           <li id="area" class=" py-1  text-[16px] relative cursor-pointer text-[#F9F9F9]">Area</li>
+                           <li  id="ingred" class=" py-1  text-[16px] relative cursor-pointer text-[#F9F9F9]">Ingredients</li>
+                           <li id="contact" class=" py-1  text-[16px] relative cursor-pointer text-[#F9F9F9]">Contact Us</li>
+                       </ul>
+                   </div>
+                   <div class="nav-footer">
+                       <div class="nav-footer-icon flex gap-x-0.5 ">
+                            <i class="fa-brands cursor-pointer fa-facebook text-white"></i>
+                            <i class="fa-brands cursor-pointer fa-twitter"></i>
+                            <i class="fa-solid cursor-pointer fa-globe"></i>
+                       </div>
+                       <p>Copyright Â© 2019 All Rights <br>Reserved.</p>
+                   </div>
+               </div>
+               <div class="nav-click-section flex flex-col justify-between bg-white h-lvh py-4 px-1.5 text-center">
+                    <img class="logo w-8" src="./../imeges/logo.png" alt=" logo image">
+                    <i class="nav-click-i cursor-pointer fa-solid fa-bars text-black text-[22px]"></i>
+                    <div class="nav-icons flex flex-col gap-y-1">
+                        <i class="fa-solid cursor-pointer fa-globe text-black text-[10px] "></i>
+                        <i class="fa-solid cursor-pointer fa-share-nodes text-black text-[10px]"></i>
+
+                    </div>
+               </div>
+
+           </nav>
+           <div class=" container  w-[75%] grid md:grid-cols-12 py-4 gap-4 focus:shad  " id="searchContainer">
+    
+           </div>
+           <section class="home-content min-h-screen relative bg-black  p-3 ">
+                <div class="inner-loader absolute top-0 start-0 end-0 bottom-0 flex justify-center items-center">
+                    <span class="loader w-[48px] h-[48px] relative inline-block rounded-full border-[5px] border-white border-dotted animate-[rotation_2s_linear_infinite]"></span>
+                </div>
+                <div class=" container ">
+                        <div id="data" class="data  grid md:grid-cols-4 gap-3.5 py-0.5"></div>
+
+                </div>
+ 
+           </section>
+           
+
+
+           
+          
+            
+    </div>
+
+           
+    </div>
+          
+          
+              
+    
+    </header>
+  
+    
+  
+
+
+    <script src="./js/jquery-3.7.1.min.js"></script> 
+    <script src="./js/main.js" ></script>
+</body>
+</html>
